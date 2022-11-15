@@ -29,7 +29,7 @@ export function Footer() {
         }
         .item a {
           color: #000;
-          font-size: 20px;
+          font-size: 14px;
         }
         .item:not(first-child) {
           margin-left: 16px;
