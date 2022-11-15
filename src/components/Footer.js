@@ -15,9 +15,7 @@ export function Footer() {
             Home
           </Link>
         </div>
-        {/* <div className="item" title="Acessar formulário de contato">
-          <Link to="/#contato">Contato</Link>
-        </div> */}
+       
       </section>
       <style jsx>{`
         .footer {
