@@ -6,8 +6,8 @@ module.exports = {
     // image: `${pathPrefix}/icon.png`,
     pathPrefix: "/intranet_caefe",
     keywords: ["Intranet", "CAEFE","associados"] ,
-    siteUrl: "https://douglas85rj.github.io/",
-    pathPrefix,
+    // siteUrl: "https://douglas85rj.github.io/",
+    
   },
   plugins: [
     {
