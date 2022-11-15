@@ -6,10 +6,10 @@ export function Form() {
     <div className="form-contato">
         <h1>Fale conosco</h1>
 <form className="conato" method="post" action="https://getform.io/f/97332049-19ab-4e2d-bd51-90d0accb9b30">
-<input type="text" name="fullname" id="nome" placeholder="Nome" required className="field"></input>
+<input type="text" name="fullname" id="nome" placeholder="Nome" required className="field" minLength={2} maxLength={36}></input>
 <input type="email" name="email" id="email" placeholder="email" required className="field"></input>
-<input type="tel" name="tel" id="tel" placeholder="Telefone (21) 99999-9999" className="field"></input>
-<textarea name="mensagem" id="mensagem" className="field"></textarea>
+<input type="tel" name="tel" id="tel" placeholder="Telefone (21) 99999-9999" className="field" pattern="\([0-9][0-9]\) 9?([0-9]{4}-[0-9]{4})"></input>
+<textarea name="mensagem" id="mensagem" required rows={3} className="field" minLength={12} maxLength={256}></textarea>
 <button type="submit" required className="submit-button">Enviar</button>
 </form>
 <style jsx>{`
@@ -52,7 +52,7 @@ export function Form() {
           opacity: 0.8;
           cursor: pointer;
         }
-        #message {
+        #mensagem {
           resize: none;
         }
         @media (max-width: 600px) {
