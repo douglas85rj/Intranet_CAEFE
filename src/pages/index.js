@@ -12,6 +12,7 @@ const IndexPage = () => {
         alt="Imagem simbolizando o trabalho em equipe da CAEFE"
         src="../images/work.jpg"
       />
+     
     </Layout>
   )
 }

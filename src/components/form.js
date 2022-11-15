@@ -1,8 +1,8 @@
 import React from "react"
 
-export function form() {
+export function Form() {
 
-    return <span>teste</span>;
+    return <span>teste</span>, <p>Olá</p>;
 
 
 }
