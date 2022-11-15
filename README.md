@@ -1,8 +1,6 @@
 # Tutorial Example
 
-The example project built by following the [Gatsby Tutorial](https://gatsbyjs.com/docs/tutorial/).
+Intranet corporativa da CAEFE
 
-Start developing:
 
-1. `npm install`
-1. `npm run develop`
+Projeto desenvolvido no módulo de ensino GatsbyJS
