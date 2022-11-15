@@ -5,7 +5,23 @@ module.exports = {
     pathPrefix: "/intranet_caefe",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `IntraCAEFE`,
+        short_name: `IntraCAEFE`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: "src/images/icon.png",
+      },
+    },
+
     "gatsby-plugin-styled-jsx",
+    "gatsby-plugin-sitemap",
+    
+
     {
       resolve: "gatsby-source-filesystem",
       options: {
