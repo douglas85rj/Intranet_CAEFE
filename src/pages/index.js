@@ -6,10 +6,11 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
-      <StaticImage
-        alt="Clifford, a reddish-brown pitbull, dozing in a bean bag chair"
-        src="../images/clifford.jpg"
+       <p>A CAEFE tem o objetivo de compartilhar todos seus projetos e conquistas durante seus 18 anos de empresa. 
+        Esse portal foi criado exclusivamente para os seus colaboradores, aqui você se mantém informado sobre tudo. </p>
+        <StaticImage
+        alt="Imagem simbolizando o trabalho em equipe da CAEFE"
+        src="../images/work.jpg"
       />
     </Layout>
   )
