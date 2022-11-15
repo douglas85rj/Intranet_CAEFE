@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { Form } from "./form";
 
+
 export function Footer() {
   return (
     <div className="footer">
@@ -14,10 +15,29 @@ export function Footer() {
             Home
           </Link>
         </div>
-        <div className="item" title="Acessar formulário de contato">
+        {/* <div className="item" title="Acessar formulário de contato">
           <Link to="/#contato">Contato</Link>
-        </div>
+        </div> */}
       </section>
+      <style jsx>{`
+        .footer {
+          padding: 32px 0;
+        }
+        .footer-links {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .item a {
+          color: #000;
+          font-size: 20px;
+        }
+        .item:not(first-child) {
+          margin-left: 16px;
+        }
+      `}</style>
+
       </div>
   )  
     }

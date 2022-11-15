@@ -7,6 +7,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     
+    
     {
       resolve: "gatsby-source-filesystem",
       options: {
