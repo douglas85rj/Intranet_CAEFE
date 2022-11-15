@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
-import { form } from './form'
+import { Footer } from './form'
 import {
   container,
   heading,
