@@ -3,7 +3,7 @@ module.exports = {
     siteUrl: "https://douglas85rj.github.io/Intranet_CAEFE/",
     title: "Intranet CAEFE",
     description: "Intranet corporativa para os colaboradores da CAEFE",
-    image: `${pathPrefix}/icon.png`,
+    // image: `${pathPrefix}/icon.png`,
     pathPrefix: "/intranet_caefe",
     keywords: ["Intranet", "CAEFE","associados"] ,
     siteUrl: "https://douglas85rj.github.io/",
