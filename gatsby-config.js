@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://douglas85rj.github.io/Intranet_CAEFE/",
     title: "Intranet CAEFE",
+     pathPrefix: "/intranet_caefe",
   },
   plugins: [
     "gatsby-plugin-image",
