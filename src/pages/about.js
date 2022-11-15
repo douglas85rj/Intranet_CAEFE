@@ -4,12 +4,12 @@ import Seo from '../components/seo'
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
-      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+    <Layout pageTitle="Sobre a CAEFE">
+      <p>A CAEFE esta a 18 anos apoiando todos os seus associados, funcionários e ex-funcionários de Furnas e Eletronuclear.</p>
     </Layout>
   )
 }
 
-export const Head = () => <Seo title="About Me" />
+export const Head = () => <Seo title="Sobre" />
 
 export default AboutPage
